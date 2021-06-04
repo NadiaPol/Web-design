@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>N. P.</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+
+<body>
+    <header
+        class="d-flex flex-column flex-md-row justify-content-around align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h4 class="h4 my-0 me-md-auto fw-normal">Nadia Polukhovych</h4>
+        <nav class="my-2 my-md-0 me-md-3">
+            <div class="d-flex flex-wrap justify-content-center">
+                <a class="btn btn-outline-link" href="../index.html">Home</a>
+            <a class="btn btn-outline-link" href="./calculator.html">Calculator</a>
+            <a class="btn btn-outline-link" href="./userInfo.html">User Info</a>
+            <a class="btn btn-outline-link" href="./signIn.html">Sign In</a>
+            <a class="btn btn-outline-link" href="#">Sign Up</a>
+        </nav> 
+      </div>
+</header>
+    <main>
+        <section class="m-auto w-75 text-center">
+            <div class="card bg-light">
+                <div class="card-body">
+                  <form id="sign_up">
+                    <h1 class="h3 p-3 m-auto fw-normal">Sign up</h1>
+                    <input type="text"  class="form-control mb-4" placeholder="Username">          
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                      <label class="form-check-label" for="inlineRadio1">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Male</label>
+                    </div>
+                    <div>
+                       <label for="exampleInputEmail1" class="form-label mt-4">Date of birth</label>
+                        <input type="date" id="date" name="date" class="rounded form-control mb-4">
+                    </div>
+                    
+                    <input type="email" id="inputEmail" class="form-control mb-4" placeholder="Email address">
+                    <input type="password" id="inputPassword" class="form-control mb-4" placeholder="Password">
+          
+                    <input class="w-100 btn btn-sm btn-dark" type="submit" value="Sign Up"></input>
+                  </form>
+                </div>
+              </div>
+        </section>
+    </main>
+</body>
+
+</html>
